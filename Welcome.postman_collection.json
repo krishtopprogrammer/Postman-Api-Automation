@@ -1,0 +1,34 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Welcome",
+		"_postman_id": "71892251-ff02-234c-0c27-a7796604fec3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Welcome ",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"tests[\"Body should contain Hello, World!\"] = responseBody === \"Hello, World!\";"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "http://localhost:3000/welcome",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

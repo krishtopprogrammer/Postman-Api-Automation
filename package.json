@@ -1,0 +1,12 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "scripts": {
+    "api-test-production":"newman run Welcome.postman_collection.json "
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "newman": "^4.2.2"
+  }
+}
