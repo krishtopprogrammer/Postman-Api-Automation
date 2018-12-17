@@ -16,7 +16,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
-							"tests[\"Body should contain Hello, World!\"] = responseBody === \"Hello, World!\";"
+							"tests[\"Body should contain bello, gorld!\"] = responseBody === \"Hello, World!\";"
 						]
 					}
 				}
