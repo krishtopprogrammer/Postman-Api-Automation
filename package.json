@@ -8,6 +8,6 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "api-test-production":"newman run Welcome.postman_collection.json "
+    "api-test-production":"newman run Welcome.postman_collection.json -r html "
   }
 }
